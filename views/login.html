@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <a href="/index">首页</a>
+        <a href="/register">注册</a>
+      </header>
+
+      <div class="header">
+        <img class="img" src="img/title.png" alt="" />
+      </div>
+
+      <form action="#">
+        手机号码：<input
+          type="text"
+          name="phone"
+          id="phone"
+          placeholder="请填写您常用的手机号"
+          required
+        />
+        密码：<input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="由6~12位数字和字母组成"
+          required
+        />
+        <input type="submit" value="提交登录信息" class="submit" />
+      </form>
+    </div>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

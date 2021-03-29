@@ -1,0 +1,21 @@
+body {
+  background: #31a5de;
+}
+.app {
+  background: #edf1f8;
+}
+.aboutBox {
+  background: #edf1f8;
+  width: 80%;
+  height: 20%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 6px rgba(7, 17, 27, 0.06);
+
+  text-align: center;
+  line-height: 100px;
+  font-size: 18px;
+}

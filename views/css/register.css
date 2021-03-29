@@ -1,0 +1,68 @@
+.app {
+  background: #fff;
+}
+.header {
+  height: 40%;
+}
+/* 投起来 */
+.header > .img {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form {
+  color: #656e73;
+  background: #fff;
+  padding: 20px;
+}
+
+form > input {
+  display: block;
+
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 396px;
+  height: 30px;
+  padding: 10px;
+}
+form > textarea {
+  padding: 10px;
+  outline: none;
+  resize: none;
+}
+
+form > #man,
+form > #woman {
+  float: left;
+  position: absolute;
+  bottom: -135px;
+  width: 30px;
+}
+.sex {
+  margin-bottom: 10px;
+}
+form > #man ~ span {
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+form > #man {
+  left: 17px;
+}
+form > #woman {
+  left: 89px;
+}
+
+form > .submit {
+  margin-top: 20px;
+  background: #54abe8;
+  color: #fff;
+  font-size: 20px;
+  height: 60px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>注册页</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <a href="/index">首页</a>
+        <a href="/login">登录</a>
+        <a href="/register">注册</a>
+      </header>
+
+      <div class="header">
+        <img class="img" src="img/title.png" alt="" />
+      </div>
+      <form action="#">
+        用户名：<input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="请输入您的真实姓名"
+          required
+        />
+        手机号码：<input
+          type="text"
+          name="phone"
+          id="phone"
+          placeholder="请填写您常用的手机号"
+          required
+        />
+        密码：<input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="由6~12位数字和字母组成"
+          required
+        />
+        确认密码：
+        <input type="password" name="passwordtrue" id="passwordtrue" required />
+        <div class="introduce">我的标语：</div>
+        <textarea
+          cols="54"
+          rows="6"
+          placeholder="限制在10~100字之间"
+          minlength="10"
+          maxlength="100"
+          id="slogan"
+          name="slogan"
+        ></textarea>
+        上传头像：
+        <input type="file" id="picture" name="picture" />
+        <div class="sex">性别：</div>
+        <input type="radio" name="sex" id="man" required /><span>男</span>
+        <input type="radio" name="sex" id="woman" required /><span>女</span>
+        <input type="submit" value="提交注册信息" class="submit" />
+      </form>
+    </div>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/register.js"></script>
+  </body>
+</html>
